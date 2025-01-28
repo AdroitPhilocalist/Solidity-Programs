@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "radius",
+						"type": "uint256"
+					}
+				],
+				"name": "calculateArea",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Day02/d2p6.sol": "CircleArea"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Day02/d2p6.sol": {
+			"keccak256": "0xe125e1d82378d4a67744b0e53ec8c7675e53d9988900c7cd7c2b1f008e0a94da",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://868238477f77007c50b03bfe645c15e38ebaf9dad1e1e7e040ee47f0d7642cd3",
+				"dweb:/ipfs/QmdFpdUnBCDdCSGRyUFDsmyUrxJSpmbPXCXLqXKPkV4XgU"
+			]
+		}
+	},
+	"version": 1
+}
