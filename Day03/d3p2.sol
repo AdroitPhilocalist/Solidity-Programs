@@ -27,7 +27,6 @@ contract MaxMinCalculator {
         if (num3 < min) {
             min = num3;
         }
-        
         return min;
     }
 }
