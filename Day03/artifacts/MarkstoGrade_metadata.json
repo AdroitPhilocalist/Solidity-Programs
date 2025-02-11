@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "marks",
+						"type": "uint256"
+					}
+				],
+				"name": "getGrade",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Day03/d3p1.sol": "MarkstoGrade"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Day03/d3p1.sol": {
+			"keccak256": "0xf63d98649cb9b3f284544b5343a1c2d90f5a96074fd976fbcad05d61bc69049f",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://63ada79876029d47727e325c31f75c9f3b713c11118719df79492c6c4a70ddaf",
+				"dweb:/ipfs/QmVTncjYj2X2bXBuxjCpwSrYVxSr8q7bC3w4jDjekiV5Xm"
+			]
+		}
+	},
+	"version": 1
+}
