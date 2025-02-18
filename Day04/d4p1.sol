@@ -16,7 +16,7 @@ contract d4p1{
     }
 
     function fillTickets(string memory ticketName) public {
-        require(ticketCount +1 < size);
+        require(ticketCount < size);
         ticketCount++;
         tickets.push(ticket(ticketCount, ticketName));
     }
