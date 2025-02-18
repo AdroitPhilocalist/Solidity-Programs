@@ -1,60 +1,46 @@
-//write a program in solidity to check the co prime number in given list of roll numbers
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity >=0.8.2 <0.9.0;
 
-    
-   
-
-contract coprime {
-    uint public num1;
-    uint public num2;
-    uint[] public arr; 
-
-  
-    function get(uint n1, uint n2) public {
-        num1 = n1;
-        num2 = n2;
+contract Coprime {
+    struct pair{
+        uint a;
+        uint b;
     }
+    pair[] public arr; // To store numbers that are co-prime with others
 
-   
-    function checkcoprime(uint n1, uint n2) public pure returns (bool) {
+    // Function to check if two numbers are co-prime
+    function checkCoprime(uint n1, uint n2) public pure returns (bool) {
         uint a = n1;
-        uint b = n2;
-    
+        uint b = n2;  
         
         if (a > b) {
-            (a, b) = (b, a); 
+            (a, b) = (b, a); // Swap if n1 > n2
         }
         
-        // Euclidean algorithm to find GCD
         while (b != 0) {
             uint temp = b;
             b = a % b;
             a = temp;
         }
-        
-        // If GCD is 1, numbers are coprime
-        return a == 1;
+
+        return a == 1; // If GCD is 1, they are co-prime
     }
 
-   
+    // Function to check co-primes in a given range [start, end]
     function checkRange(uint start, uint end) public {
-      
-        delete arr;
-
+        delete arr; // Reset the array before repopulating
         
-        for (uint i = start; i < end; i++) {
+        for (uint i = start; i <= end; i++) {
             for (uint j = i + 1; j <= end; j++) {
-               
-                if (checkcoprime(i, j)) {
-                    arr.push(i); 
-                } 
+                if (checkCoprime(i, j)) {
+                    arr.push(pair(i,j)); // Push only the numbers which are co-prime with any other number
+                }
             }
         }
     }
 
-
-    function getArray() public view returns (uint[] memory) {
+    // Function to get the stored array of numbers
+    function getArray() public view returns (pair[] memory) {
         return arr;
     }
 }
