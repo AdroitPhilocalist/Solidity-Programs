@@ -1,0 +1,157 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "generateLotteryNumber",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "prize1Amount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "prize2Amount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "prize3Amount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "viewPrizes",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "address",
+								"name": "winner",
+								"type": "address"
+							},
+							{
+								"internalType": "uint256",
+								"name": "prizeAmount",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct Lottery.Prize",
+						"name": "",
+						"type": "tuple"
+					},
+					{
+						"components": [
+							{
+								"internalType": "address",
+								"name": "winner",
+								"type": "address"
+							},
+							{
+								"internalType": "uint256",
+								"name": "prizeAmount",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct Lottery.Prize",
+						"name": "",
+						"type": "tuple"
+					},
+					{
+						"components": [
+							{
+								"internalType": "address",
+								"name": "winner",
+								"type": "address"
+							},
+							{
+								"internalType": "uint256",
+								"name": "prizeAmount",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct Lottery.Prize",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Day04/d4p3.sol": "Lottery"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Day04/d4p3.sol": {
+			"keccak256": "0x8f9b735c97a5f5c538a5bbf2562f2c926838382062f4e08d134fd756d7722cb3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://850ad8ce2962d494204d693f5da81e5cf131080b0b4b328f555b0431361b60f7",
+				"dweb:/ipfs/QmQBDoxbENTvjJwVBEPz5u8rhc3NknHQytVLgFAswuJq9q"
+			]
+		}
+	},
+	"version": 1
+}
