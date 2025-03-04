@@ -92,11 +92,11 @@
 	},
 	"sources": {
 		"Day03/d3p2.sol": {
-			"keccak256": "0xc70694dd7500c7692c78fcdf51905f146d0a63fdaa9ce165efcfe89bc009246d",
+			"keccak256": "0x856fcdde555b8a0937b17291daaa7b34999928641ee40e089ee7a953487b6e2d",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://688eac6b302a9caa1351cb01ab92f1ba62ba90740ff6fcbbb751e3a642a1efcc",
-				"dweb:/ipfs/QmUCVfFDxR79krDqL4stx5YNfPJtFpvw1ayccBhEzMTjU1"
+				"bzz-raw://4be2ae3fc53c2861008659b1942003edac9d90ca4e77331c440a2d68742d0866",
+				"dweb:/ipfs/QmQ6cPCkT34FjyURwXnZnf42ujdKg5n8ediqgTdF2jcVvP"
 			]
 		}
 	},

@@ -7,7 +7,6 @@ abstract contract Shape {
 }
 contract Circle is Shape {
     uint public radius;
-    
     constructor(uint _radius) {
         radius = _radius;
     }

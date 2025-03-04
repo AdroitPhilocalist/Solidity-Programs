@@ -169,11 +169,11 @@
 	},
 	"sources": {
 		"Day03/d3p3.sol": {
-			"keccak256": "0x95a7488d12b0e0dfb17287fd0b85c34b7e6feb8f14c253b1cbd6f6cfc7862c2f",
+			"keccak256": "0xb8f9a0ee66821a614ef23bf8f16d1731070c9694ba9781d2708dd51eac28277f",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://7b24ed5021539fd2dc95ba293dcc272ff55effeadf01687e39e4dbcd7956b148",
-				"dweb:/ipfs/QmTfWNA4mG9So9LnzvHu1Png9SpMcEjU9YY8GhjyW2s5YG"
+				"bzz-raw://d0421a3f53e96fe70c0e27261f1967722a225de509f290703788907884e27172",
+				"dweb:/ipfs/QmaH3KDoYgt2s4rCGjms6T6AnXbBHUU61hWMiZt1HjJ7f6"
 			]
 		}
 	},
