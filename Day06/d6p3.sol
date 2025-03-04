@@ -1,12 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.8.2 <0.9.0;
 
-
-
-
-// Base contract
 abstract contract Shape {
-    // Virtual methods for perimeter and area
     function getPerimeter() public virtual view returns (uint);
     function getArea() public virtual view returns (uint);
 }
@@ -67,14 +62,10 @@ contract Triangle is Shape {
         c = _c;
         height = _height;
     }
-
-    // Override getPerimeter() for Triangle
     function getPerimeter() public override view returns (uint) {
-        return a + b + c; // Perimeter = a + b + c
+        return a + b + c;
     }
-
-    // Override getArea() for Triangle
     function getArea() public override view returns (uint) {
-        return (a * height) / 2; // Area = 1/2 * base * height
+        return (a * height) / 2;
     }
 }
