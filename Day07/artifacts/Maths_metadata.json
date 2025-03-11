@@ -9,30 +9,11 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "num",
-						"type": "uint256"
-					}
-				],
-				"name": "checkArmstrong",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
 						"name": "n",
 						"type": "uint256"
 					}
 				],
-				"name": "getFactorial",
+				"name": "factorial",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -51,7 +32,7 @@
 						"type": "uint256"
 					}
 				],
-				"name": "getFibonacci",
+				"name": "fibonacci",
 				"outputs": [
 					{
 						"internalType": "uint256[]",
@@ -66,6 +47,25 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "isArmstrong",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
 						"name": "a",
 						"type": "uint256"
 					},
@@ -75,7 +75,7 @@
 						"type": "uint256"
 					}
 				],
-				"name": "getMax",
+				"name": "maxof2",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -99,7 +99,7 @@
 						"type": "uint256"
 					}
 				],
-				"name": "getMin",
+				"name": "minof2",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -124,7 +124,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Day07/d7p1.sol": "MathContract"
+			"Day07/Maths.sol": "Maths"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -144,14 +144,6 @@
 			"urls": [
 				"bzz-raw://c8f6acb942768013cfed22747fb18a3b6fa39526e62bf5b1545fe452771dd56f",
 				"dweb:/ipfs/QmdTY1fDUcQ5iKQRJ8ue3QCwYpHhr32fZTUGAZM7baJPy6"
-			]
-		},
-		"Day07/d7p1.sol": {
-			"keccak256": "0xea47265fce01406f5ea05bd2f1daf9bf9a7f3ec276f764353dc93707f3930156",
-			"license": "MIT",
-			"urls": [
-				"bzz-raw://c55e9af9fc3e0d00cdc62cf0c5e388af5fe11a33acafa2dff7518fd4be978acb",
-				"dweb:/ipfs/QmS4ERaoq6SRsa7HrxcEQSDkKL551r1pG3UuMAsvVKzuF7"
 			]
 		}
 	},

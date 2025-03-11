@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.8.2 <0.9.0;
 
-library MathLibrary {
-    function max(uint256 a, uint256 b) public pure returns (uint256) {
+library Maths {
+    function maxof2(uint256 a, uint256 b) public pure returns (uint256) {
         return a > b ? a : b;
     }
-    function min(uint256 a, uint256 b) public pure returns (uint256) {
+    function minof2(uint256 a, uint256 b) public pure returns (uint256) {
         return a < b ? a : b;
     }
     function factorial(uint256 n) public pure returns (uint256) {
