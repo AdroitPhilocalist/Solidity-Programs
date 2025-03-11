@@ -139,11 +139,11 @@
 	},
 	"sources": {
 		"Day07/Maths.sol": {
-			"keccak256": "0x713d3df283892671f8166df1ecc6c88ca0fcbbc4c3d1295cf87dde4ec9960f2d",
+			"keccak256": "0x4368702f6d41de62491e2d8efcb1f3d73f26d1d555933ef5f3aa5effb1c0ff59",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ab71e961111a11517da4a4307b1e5ea5a95208270e2008ebcf4fb674ae5b9eda",
-				"dweb:/ipfs/QmPsAabTWSunNuosVDtubJdNrBX4GXAruhrg5TfZtqP2Fj"
+				"bzz-raw://e4f80e22805b5666c0486a8b09cbb1f8519c1e3894d25fc4ab242ab8cc335c49",
+				"dweb:/ipfs/QmYzah2viRYCYMHHau4HW16EoF87TQMbvJE7J6Jr77YzxN"
 			]
 		}
 	},
