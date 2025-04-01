@@ -5,14 +5,10 @@ interface Department {
     function printDepartmentDetails() external;
     function setDepartmentDetails(string memory deptName, string memory deptHead) external;
 }
-
-// Hostel contract with hostelName, hostelLocation, numberOfRooms and methods
 contract Hostel {
     string public hostelName;
     string public hostelLocation;
     uint public numberOfRooms;
-
-    // Methods to get and print hostel details
     function setHostelDetails(string memory _hostelName, string memory _hostelLocation, uint _numberOfRooms) public {
         hostelName = _hostelName;
         hostelLocation = _hostelLocation;
@@ -24,7 +20,6 @@ contract Hostel {
     }
 }
 
-// Student contract inherits the Hostel contract and implements the Department interface
 contract Student is Hostel, Department {
     string public studentName;
     string public regdNo;
